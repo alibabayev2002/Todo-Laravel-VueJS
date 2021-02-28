@@ -1921,13 +1921,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -38171,65 +38164,16 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "modal fade ",
-        attrs: {
-          id: "addModal",
-          tabindex: "-1",
-          role: "dialog",
-          "aria-labelledby": "exampleModalLabel",
-          "aria-hidden": "true"
-        }
-      },
-      [
-        _c(
-          "div",
-          { staticClass: "modal-dialog", attrs: { role: "document" } },
-          [
-            _c("div", { staticClass: "modal-content " }, [
-              _c("div", { staticClass: "modal-body p-4" }, [
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.item.subject,
-                      expression: "item.subject"
-                    }
-                  ],
-                  staticClass: "form-control mb-4",
-                  attrs: { placeholder: "@subject", type: "text" },
-                  domProps: { value: _vm.item.subject },
-                  on: {
-                    input: function($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.$set(_vm.item, "subject", $event.target.value)
-                    }
-                  }
-                }),
-                _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass: "add-btn btn btn-success form-control",
-                    on: {
-                      click: function($event) {
-                        return _vm.addItem()
-                      }
-                    }
-                  },
-                  [_vm._v("Add todo")]
-                )
-              ])
-            ])
-          ]
-        )
-      ]
-    )
+    _c("div", {
+      staticClass: "modal fade ",
+      attrs: {
+        id: "addModal",
+        tabindex: "-1",
+        role: "dialog",
+        "aria-labelledby": "exampleModalLabel",
+        "aria-hidden": "true"
+      }
+    })
   ])
 }
 var staticRenderFns = [
