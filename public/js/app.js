@@ -1928,7 +1928,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -38187,7 +38186,7 @@ var render = function() {
       [
         _c(
           "div",
-          { staticClass: "modal-dialog ", attrs: { role: "document" } },
+          { staticClass: "modal-dialog", attrs: { role: "document" } },
           [
             _c("div", { staticClass: "modal-content " }, [
               _c("div", { staticClass: "modal-body p-4" }, [

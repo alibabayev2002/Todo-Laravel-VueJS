@@ -51,9 +51,8 @@
             </div>
         </div>
         <div class="modal fade " id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog " role="document">
+  <div class="modal-dialog" role="document">
     <div class="modal-content ">
- 
       <div class="modal-body p-4">
                     <input class="form-control mb-4" placeholder="@subject" v-model="item.subject" type="text">
                     <button class="add-btn btn btn-success form-control" v-on:click="addItem()">Add todo</button>
