@@ -38187,7 +38187,7 @@ var render = function() {
       [
         _c(
           "div",
-          { staticClass: "modal-dialog w-25 ", attrs: { role: "document" } },
+          { staticClass: "modal-dialog ", attrs: { role: "document" } },
           [
             _c("div", { staticClass: "modal-content " }, [
               _c("div", { staticClass: "modal-body p-4" }, [

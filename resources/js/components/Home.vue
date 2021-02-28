@@ -51,7 +51,7 @@
             </div>
         </div>
         <div class="modal fade " id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog w-25 " role="document">
+  <div class="modal-dialog " role="document">
     <div class="modal-content ">
  
       <div class="modal-body p-4">
